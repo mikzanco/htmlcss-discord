@@ -51,7 +51,7 @@ header .menu ul li{
   padding: 10px;
 }
 
-header .button, a{
+header .button a{
   background-color: white;
   text-decoration: none;
   color: black;
@@ -99,15 +99,22 @@ header .button, a{
   padding: 20px;
 }
 
+
 .jumbotron .button a{
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 16px;
+  padding: 15px ;
   margin: 0 5px;
 }
 
 .jumbotron .button2 a{
   color: white;
   background-color: #23272a;
-  margin: 0 5px;
 }
+
+
 
 
 /* MAIN */
@@ -190,7 +197,7 @@ main p{
 .fourth-section a{
   background-color: rgb(142,161,225) ;
   text-decoration: none;
-  color: black;
+  color: white;
   border-radius: 16px;
   padding: 15px ;
 }
@@ -226,19 +233,28 @@ footer .logo{
   width: 20%;
 }
 
-footer .logo .indirizzo{
-  font-size: 0.8rem;
-}
-
-footer .menu{
-  padding-right: 10px;
-  width: 20%;
-}
-
 footer .logo h3{
+  
   color: rgb(114,137,218);
   font-size: 30px;
 }
+
+footer #language{
+  width: 25px;
+}
+
+footer .language{
+  display: flex;
+  color: white;
+  margin-top: 20px;
+
+}
+
+footer .menu{
+  padding-top: 5%;
+}
+
+
 
 footer .menu ul{
   list-style: none;
@@ -250,7 +266,7 @@ footer .menu h3{
 }
 
 footer .menu a{
-  background-color: #23272a;
+  
   color: white;
   text-decoration: none;
   font-size: 15px;
@@ -263,7 +279,15 @@ footer .menu a:hover{
 
 .footer-bottom{
   display: flex;
-  padding: 5%;
+  padding: 5% 0%;
   justify-content: space-between;
   
+}
+
+.footer-bottom .button1 a{
+  background-color: rgb(142,161,225) ;
+  text-decoration: none;
+  color: white;
+  border-radius: 16px;
+  padding: 15px ;
 }
