@@ -1,0 +1,191 @@
+/* GENERAL */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  border: 1px solid black;
+  background-color: rgba(red, 0, 0, 0,3);
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+
+ /* HEADER */
+
+header{
+  display: flex;
+  background-color: rgb(49,97,224);
+  /*da togliere*/
+  height: 80px; 
+  /* padding: 10px; */
+  
+ justify-content: center;
+}
+
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header .menu ul{
+  display: flex;
+  list-style: none;
+}
+
+header .menu ul li{
+  padding: 10px;
+}
+
+/* MAIN */
+
+.container .jumbotron{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(49,97,224);
+  /* text-align: center; */
+  height: 550px;
+}
+
+.jumbotron .content{
+  max-width: 880px;
+  padding: 10%;
+}
+
+.jumbotron h1{
+  /* padding: 10% 10%; */
+  text-align: center;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.second-container .container{
+  display: flex;
+  background-color: white;
+  height: 730px;
+}
+
+.second-container .img{
+  width: 65%;
+  background-color: red
+}
+
+.second-container .text{
+  background-color: rgba(0, 255, 0);
+  text-align: center;
+  max-width: 35%;
+  padding: 10%;
+}
+
+.third-container .container{
+  display: flex;
+  background-color: gray;
+  height: 730px;
+}
+
+.third-container .text{
+  background-color: rgba(0, 255, 0);
+  text-align: center;
+  max-width: calc(100% - 65%);
+  padding: 10%;
+}
+
+.third-container .img{
+  width: 65%;
+  background-color: red
+}
+
+/* .fourth-section .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+main .fourth-section .container{
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+main .fourth-section button{
+  /* padding: 20px; */
+  background-color: rgb(142,161,225) ;
+  color: white;
+  border-radius: 10%;
+}
+
+/* FOOTER */
+
+footer .container{
+  display: flex;
+  /* margin: 2% 10%; */
+  background-color: rgb(35,39,42);
+  /* margin: 10px;
+  padding: 10px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo{
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  width: 20%;
+}
+
+footer .logo .indirizzo{
+  font-size: 0.8rem;
+}
+
+footer .menu{
+  padding-right: 10px;
+  width: 20%;
+}
+
+footer .logo h3{
+  color: rgb(114,137,218);
+  font-size: 30px;
+}
+
+footer .menu ul{
+  list-style: none;
+}
+
+footer .menu h3{
+  color: rgb(114,137,218);
+  
+}
+
+footer .menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+footer .menu a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+.footer-bottom{
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+}
