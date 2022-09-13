@@ -139,10 +139,11 @@ main p{
   background-color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
-  max-width: 40%;
-  padding: 10%;
+  max-width: 50%;
+  padding: 5%;
 }
 
 .third-container{
@@ -157,15 +158,20 @@ main p{
 }
 
 .third-container .text{
+  background-color: #f6f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
-  max-width: calc(100% - 65%);
-  padding: 10%;
+  max-width: 50%;
+  padding: 5%;
 }
 
 .third-container .img{
   display: flex;
   align-items: center;
-  width: 65%;
+  width: 60%;
 }
 
 /* .fourth-section .container{
@@ -174,17 +180,19 @@ main p{
   align-items: center;
 } */
 
-main .fourth-section .container{
+
+.fourth-section {
   background-color: #f6f6f6;
   text-align: center;
   padding: 30px;
 }
 
-main .fourth-section button{
-  /* padding: 20px; */
+.fourth-section a{
   background-color: rgb(142,161,225) ;
-  color: white;
-  border-radius: 10%;
+  text-decoration: none;
+  color: black;
+  border-radius: 16px;
+  padding: 15px ;
 }
 
 .second-container img{
@@ -242,6 +250,7 @@ footer .menu h3{
 }
 
 footer .menu a{
+  background-color: #23272a;
   color: white;
   text-decoration: none;
   font-size: 15px;
