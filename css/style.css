@@ -25,7 +25,7 @@ body{
 
 header{
   display: flex;
-  background-color: rgb(49,97,224);
+  background-color: #3161e0;
   /*da togliere*/
   height: 80px; 
   /* padding: 10px; */
@@ -51,6 +51,11 @@ header .menu ul li{
 }
 
 /* MAIN */
+.container-jumbotron{
+  background-image: url(../img/jumbo.png);
+  max-width: 100%;
+  background-size: cover;
+}
 
 .container .jumbotron{
   display: flex;
@@ -58,9 +63,12 @@ header .menu ul li{
   flex-direction: column;
   align-items: center;
   background-color: rgb(49,97,224);
-  /* text-align: center; */
+  text-align: center;
   height: 550px;
+  
 }
+
+
 
 .jumbotron .content{
   max-width: 880px;
@@ -83,12 +91,18 @@ h2{
 }
 
 .second-container .img{
+  display: flex;
+  align-items: center;
   width: 65%;
-  background-color: red
+  background-color: white;
+
 }
 
 .second-container .text{
-  background-color: rgba(0, 255, 0);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   max-width: 35%;
   padding: 10%;
@@ -96,20 +110,20 @@ h2{
 
 .third-container .container{
   display: flex;
-  background-color: gray;
+  background-color: #f6f6f6;
   height: 730px;
 }
 
 .third-container .text{
-  background-color: rgba(0, 255, 0);
   text-align: center;
   max-width: calc(100% - 65%);
   padding: 10%;
 }
 
 .third-container .img{
+  display: flex;
+  align-items: center;
   width: 65%;
-  background-color: red
 }
 
 /* .fourth-section .container{
@@ -131,12 +145,20 @@ main .fourth-section button{
   border-radius: 10%;
 }
 
+.second-container img{
+  width: 100%;
+}
+
+.fourth-section .container img{
+  width: 100% ;
+}
+
 /* FOOTER */
 
 footer .container{
   display: flex;
   /* margin: 2% 10%; */
-  background-color: rgb(35,39,42);
+  background-color: #f6f6f6;
   /* margin: 10px;
   padding: 10px; */
   justify-content: space-between;
