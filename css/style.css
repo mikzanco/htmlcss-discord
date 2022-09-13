@@ -30,8 +30,8 @@ header{
   /*da togliere*/
   height: 80px; 
   /* padding: 10px; */
-  
- justify-content: center;
+  color: white;
+  justify-content: center;
 }
 
 
@@ -49,6 +49,14 @@ header .menu ul{
 
 header .menu ul li{
   padding: 10px;
+}
+
+header .button, a{
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  border-radius: 16px;
+  padding: 15px ;
 }
 
 /* MAIN */
