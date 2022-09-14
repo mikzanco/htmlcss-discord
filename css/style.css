@@ -26,14 +26,22 @@ body{
   display: block;
  }
 
+ .title-stars{
+  font-size: 20px;
+  background-image: url(../img/stars.svg);
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-bottom: 40px;
+ }
+
  /* HEADER */
 
 header{
   display: flex;
   background-color: #3161e0;
-  /*da togliere*/
   height: 80px; 
-  /* padding: 10px; */
   color: white;
   justify-content: center;
 }
@@ -147,7 +155,6 @@ main p{
 .second-container .container{
   display: flex;
   background-color: white;
-  /* height: 730px; */
 }
 
 .second-container .img{
@@ -177,7 +184,6 @@ main p{
 .third-container .container{
   display: flex;
   background-color: #f6f6f6;
-  /* height: 730px; */
 }
 
 .third-container .text{
@@ -196,13 +202,6 @@ main p{
   align-items: center;
   width: 60%;
 }
-
-/* .fourth-section .container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 
 .fourth-section {
   background-color: #f6f6f6;
@@ -234,10 +233,6 @@ footer{
 
 footer .container{
   display: flex;
-  /* margin: 2% 10%; */
-  
-  /* margin: 10px;
-  padding: 10px; */
   justify-content: space-between;
   align-items: center;
 }
@@ -263,14 +258,11 @@ footer .language{
   display: flex;
   color: white;
   margin-top: 20px;
-
 }
 
 footer .menu{
   padding-top: 5%;
 }
-
-
 
 footer .menu ul{
   list-style: none;
@@ -278,11 +270,9 @@ footer .menu ul{
 
 footer .menu h3{
   color: rgb(114,137,218);
-  
 }
 
 footer .menu a{
-  
   color: white;
   text-decoration: none;
   font-size: 15px;
@@ -297,7 +287,6 @@ footer .menu a:hover{
   display: flex;
   padding: 5% 0%;
   justify-content: space-between;
-  
 }
 
 .footer-bottom .button1 a{
