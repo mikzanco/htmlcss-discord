@@ -296,3 +296,9 @@ footer .menu a:hover{
   border-radius: 16px;
   padding: 15px ;
 }
+
+footer section .logo icons{
+  color: white;
+  margin: 10px;
+  padding: 5px;
+}
