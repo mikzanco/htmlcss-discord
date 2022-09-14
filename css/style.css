@@ -22,6 +22,10 @@ body{
   margin: 0 auto;
  }
 
+ svg{
+  display: block;
+ }
+
  /* HEADER */
 
 header{
@@ -51,6 +55,11 @@ header .menu ul li{
   padding: 10px;
 }
 
+header .menu li:hover{
+  text-decoration: underline;
+ }
+ 
+
 header .button a{
   background-color: white;
   text-decoration: none;
@@ -59,12 +68,17 @@ header .button a{
   padding: 15px ;
 }
 
+.button:hover{
+  color: #628cf7 ;
+}
+
 /* JUMBOTRON */
 
 .container-jumbotron{
-  background-image: url(../img/jumbo.png);
+  background-image: url('../img/jumbo.png');
   max-width: 100%;
   background-size: cover;
+  background-position: center;
 }
 
 .jumbotron .content{
@@ -133,7 +147,7 @@ main p{
 .second-container .container{
   display: flex;
   background-color: white;
-  height: 730px;
+  /* height: 730px; */
 }
 
 .second-container .img{
@@ -163,7 +177,7 @@ main p{
 .third-container .container{
   display: flex;
   background-color: #f6f6f6;
-  height: 730px;
+  /* height: 730px; */
 }
 
 .third-container .text{
